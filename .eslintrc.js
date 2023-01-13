@@ -1,6 +1,8 @@
 module.exports = {
   extends: ['@mate-academy/eslint-config-react-typescript', 'plugin:cypress/recommended'],
   rules: {
+    'react/require-default-props': 0,
+    'react/jsx-curly-newline': 0,
     'max-len': ['error', {
       ignoreTemplateLiterals: true,
       ignoreComments: true,
